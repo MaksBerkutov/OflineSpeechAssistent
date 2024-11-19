@@ -1,0 +1,20 @@
+{
+	"name": "voicespeechassistent",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"dotenv": "^16.4.5",
+		"node-microphone": "^0.1.6",
+		"nodemon": "^3.1.7",
+		"play-sound": "^1.1.6",
+		"vosk": "^0.3.39"
+	}
+}
